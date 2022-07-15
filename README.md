@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo_text.svg" width="320" alt="Nest Logo" /></a>
+  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo_text.svg" width="200" alt="Nest Logo" /></a>
 </p>
 
 [circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
@@ -13,16 +13,30 @@
 <a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
 </p>
 
+<p align="center">
+  <a href="https://swagger.io/" target="blank"><img src="https://static1.smartbear.co/swagger/media/assets/images/swagger_logo.svg" width="150" alt="Swagger Logo" /></a>
+  <a href="https://docs.nestjs.com/openapi/introduction" target="blank"><h2>Swagger in Nestjs</h2></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/winstonjs/winston" target="blank"><h2>Winstonjs/winston Logger</h2></a>
+</p>
+
+<p align="center">
+  <a href="https://knexjs.org/" target="blank"><h2>Knex.js / PostgreSQL DB</h2></a>
+</p>
+
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+[Mini app](https://github.com/dtsurcanu/payment-history), which meets certain restricted conditions, 
+with the use of the newest and most efficient technologies at the time of writing the code.
 
 ## Installation
 
 ```bash
 $ yarn
-OR 
-$ npm install 
+OR
+$ npm install
 ```
 
 ## Running the app
@@ -31,7 +45,7 @@ $ npm install
 # development
 $ yarn start
 OR
-$ npm run start 
+$ npm run start
 
 # watch mode
 $ yarn start:dev
@@ -44,7 +58,7 @@ OR
 $ npm run start:prod
 ```
 
-## Test
+<!-- ## Test
 
 ```bash
 # unit tests
@@ -55,7 +69,7 @@ $ npm run test:e2e
 
 # test coverage
 $ npm run test:cov
-```
+``` -->
 
 ## Support
 

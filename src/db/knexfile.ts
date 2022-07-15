@@ -1,16 +1,3 @@
-// module.exports = {
-//   development: {
-//     client: 'postgresql',
-//     connection: {
-//       host: '127.0.0.1',
-//       port: 54324,
-//       user: 'root',
-//       password: 'root',
-//       database: 'nest',
-//     },
-//   },
-// };
-
 import type { Knex } from 'knex';
 import dbConfig from '../config/config.db';
 
@@ -60,5 +47,4 @@ const knexfile: { [key: string]: Knex.Config } = {
   },
 };
 
-// module.exports = knexfile;
 export default knexfile;
